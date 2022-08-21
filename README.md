@@ -1,6 +1,6 @@
 # Route access module
 
-It is module for send mail with dynamic template controll, it's make you avoid to reated line code for notification.
+It is module for send mail with dynamic template controll, it's make you avoid to repeated line code for notification.
 
 
 
