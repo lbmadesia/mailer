@@ -1,5 +1,5 @@
 {
-  "name": "mailer",
+  "name": "@lbmadesia/mailer",
   "version": "1.0.0",
   "description": "it is mail feature with dynamic create template for node js (express)",
   "main": "mailer.js",
