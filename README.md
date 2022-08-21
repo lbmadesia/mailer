@@ -8,10 +8,10 @@ It is module for send mail with dynamic template controll, it's make you avoid t
 
 Step 1.
 ```
-npm install mailer
+npm i lb-mailer
 ```
 ### Required 
-these moddule should be installed if not then copy below and install 
+these module should be installed if not then copy below and install 
 Step 2.
 ```
 npm install nodemailer
@@ -39,7 +39,7 @@ MAIL_FROM=xyz@gmail.com
 Step 4. ### link module and use any where in the project 
 
 ```
-const mailer = require('mailer');
+const mailer = require('lb-mailer');
 
 await mailer.greeting("Hello");
   await mailer.subject("it's mail from mailer");
