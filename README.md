@@ -14,16 +14,16 @@ npm i lb-mailer
 these module should be installed if not then copy below and install 
 Step 2.
 ```
-npm install nodemailer
+npm i nodemailer
 ```
 ```
-npm install dotenv
+npm i dotenv
 ```
 ```
-npm install path
+npm i path
 ```
 ```
-npm install fs
+npm i fs
 ```
 
 Step 3. ### add below point in .env
@@ -44,12 +44,12 @@ const mailer = require('lb-mailer');
 await mailer.greeting("Hello");
   await mailer.subject("it's mail from mailer");
   await mailer.line("your text is through line method, use  line method as much you want new.");
-  mailer.link("https://github.com/lbmadesia/documents/mailer","click here"); //second parameter is optional
+  await mailer.link("https://github.com/lbmadesia/documents/mailer","click here"); //second parameter is optional
   await mailer.line(" to Know about mailer");
   await mailer.button("Contact to me","mailto:lbmadesia@email.com");  //second parameter is optional
   await mailer.footer("here is all deatils footer");
   await mailer.attachments([{name:"filename.png",path:"/storages/a.png"},{name:"ptest.png",path:"http://localhost:8080/storages/lb.png"}]);
-  let data = await mailer.notify('lalbabu@aresourcepool.com');
+  let data = await mailer.notify('xyz@gmail.com');
 ```
 
 
