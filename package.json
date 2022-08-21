@@ -1,0 +1,22 @@
+{
+  "name": "mailer",
+  "version": "1.0.0",
+  "description": "it is mail feature with dynamic create template for node js (express)",
+  "main": "mailer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbmadesia/mailer.git"
+  },
+  "keywords": [
+    "mailer"
+  ],
+  "author": "Lb Madesia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lbmadesia/mailer/issues"
+  },
+  "homepage": "https://github.com/lbmadesia/mailer#readme"
+}
